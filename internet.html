@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+	<title>Internet Page</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div id="wrapper">
+		<div id="header">
+			<img id="logo" src="globe.png" alt="globe">
+			<h1>The Inter<span class="head">net</span></h1>
+			<h2>The World Wide Web</h2>
+		</div>
+		<div id="sidebar">
+			<div id="sidetxt">
+				So, What's an <span class="inter">Internet?</span>
+				<p id="explan">An <span class="head">Inter</span>connected <span class="head">Net</span>work of computers all around the world!</p>
+				<button id="vidbut">WATCH A VIDEO</button>
+				<button id="resbut">MORE RESOURCES</button>
+			</div>
+			<div id="ad">
+				<p>Reinvent your career in just 14 weeks</p>
+				<img id="ninja" src="ninja.png" alt="ninja">
+				<button id="learnbut">Learn more >>></button>
+			</div>
+		</div>
+		<div id="main">
+			<div id="subhead">
+				<div id="subtopleft">
+					<img class="subheadimg1" src="home.png" alt="home">
+					<a href="">DNS</a>
+				</div>
+				<img class="subheadimg2" src="phone.png" alt="phone">
+				<div id="subtopright">
+					<p>Mon - Fri 9 a.m. - 5 p.m. (EST) <span id="phonenum">855.967.3787</span> International +1.617.963.0555</p>
+				</div>
+			</div>
+			<div id="maincon">
+				<h3>Clients and Servers</h3>
+				<p>Computers connected to the <a class="mainlink" href="">Web</a> are called <b>clients</b> and <b>servers</b>.</p>
+				<ul>
+					<li><a class="mainlink" href="">Clients</a> are the typical Web user's Internet-connected devices (for example, your computer connected to your Wi-Fi, or your phone connected to your mobile network) and <a class="mainlink" href="">Web-accessing software</a> available on those devices (usually a web browser like Firefox or Chrome).</li>
+					<li><a class="mainlink" href="">Servers</a> are computers that store <a class="mainlink" href="">webpages</a>, <a class="mainlink" href="">sites</a>, or <a class="mainlink" href="">apps</a>. When a client device wants to access a webpage, a copy of the webpage is downloaded from the server onto the client machine to be displayed in the user's web browser.</li>
+				</ul>
+				<img id="clientimg" src="client_server.jpg" alt="client_server">
+				<h3>So What Actually Happens?</h3>
+				<ol>
+					<li>The browser goes to the <a class="mainlink" href="">DNS server</a> and finds the real address of the <a class="mainlink" href="">server</a> that the website lives on.</li>
+					<li>The browser sends an <a class="mainlink" href="">HTTP request</a> message to the server asking it to send a copy of the website to the client.</li>
+					<li>If the server approves the client's request, the server sends the client a <a class="mainlink" href="">"200 OK" message</a>, which means "Permission granted! Here you go!", and then starts sending the website's files to the browser as a series of small chunks.</li>
+					<li>The browser assembles the small chunks into a complete website and displays it to you!</li>
+				</ol>
+			</div>
+			<div id="footer">
+				<img class="threecir" src="html.png" alt="html">
+				<div id="footertxt">
+					<h3>The Big 3 - HTML, CSS, JavaScript</h3>
+					<p>While the server can process information in many different languages, the files that they serve to the client are <i>always</i> going to be some combination of HTML, CSS, and JavaScript!</p>
+					<p>Learn more about the Big 3 <a class="mainlink" href="">here</a>!s</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
